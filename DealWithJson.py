@@ -143,7 +143,6 @@ l1_keyword_text[0:5]
 l1_keyword_relevance[0:5] 
 l1_keyword_count 
 
-import pandas as pd
 df1=pd.concat([pd.Series(l1_Qartr),pd.Series(l1_concepts_text),pd.Series(l1_concepts_relev),pd.Series(l1_concepts_dbpedia_resource),
            pd.Series(l1_categories_score1),pd.Series(l1_categories_lebel1),pd.Series(l1_concepts_text),pd.Series(l1_concepts_relev),
            pd.Series(l1_concepts_dbpedia_resource),],axis=1)
